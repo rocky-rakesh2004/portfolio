@@ -9,16 +9,11 @@ import Threads from "./Threads";
 import ShinyText from "./ShinyText";
 import { ButtonPrimary, ButtonOutline } from "./Button";
 
-
 const Hero = () => {
   return (
     <section id="home" className="pt-28 lg:pt-36 relative overflow-hidden">
       <div className="absolute inset-0 w-full h-full pointer-events-none z-0">
-         <Threads
-    amplitude={10}
-    distance={0.5}
-    enableMouseInteraction={true}
-  />
+        <Threads amplitude={10} distance={0.5} enableMouseInteraction={true} />
       </div>
       {/* Content above Galaxy */}
       <div className="relative z-10">
@@ -51,7 +46,13 @@ const Hero = () => {
               </span>
             </h2>
             <div className="flex items-center gap-3">
-              <ButtonPrimary label="Download Resume" icon="download" />
+              <ButtonPrimary
+                label="Download Resume"
+                icon="download"
+                href="/RESUME.pdf"
+                target="_blank"
+              />
+
               <ButtonOutline
                 href="about"
                 label="Scroll down"
