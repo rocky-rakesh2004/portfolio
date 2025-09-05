@@ -4,7 +4,7 @@
  */
 
 import Header from "./components/Header";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -32,8 +32,8 @@ const App = () => {
           ease: "power2.out",
           scrollTrigger: {
             trigger: el,       
-            start: "top 80%",   
-            end: "bottom 60%",  
+            start: "-50 bottom",   
+            end: "bottom 80%",  
             scrub: true,        
           },
         }
