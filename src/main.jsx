@@ -2,7 +2,7 @@
  * @copyright 2025 Rakesh 
  * @license Apache-2.0
  */
-
+import 'lenis/dist/lenis.css'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
