@@ -29,7 +29,7 @@ const works = [
     imgSrc: '/images/project-4.jpg',
     title: 'Symposium website',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    projectLink: 'https://github.com/rocky-rakesh2004/symposium-UI'
   },
   {
     imgSrc: '/images/project-5.jpg',
@@ -41,19 +41,19 @@ const works = [
     imgSrc: '/images/project-6.jpg',
     title: 'Travels website',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    projectLink: 'https://github.com/rocky-rakesh2004/video-background-UI'
   },
   {
     imgSrc: '/images/project-7.png',
     title: 'Chess grid',
     tags: ['Web-design', 'Development'],
-    projectLink: ''
+    projectLink: 'https://github.com/rocky-rakesh2004/Chess-Grid-Style'
   },
   {
     imgSrc: '/images/project-8.jpg',
     title: 'Portfolio website',
     tags: ['React js', 'TailwindCSS', 'Development'],
-    projectLink: ''
+    projectLink: 'https://github.com/rocky-rakesh2004/portfolio'
   }
 ];
 
